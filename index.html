@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evolução das Sereias: Do Mito ao Pop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>A Evolução das Sereias 🧜‍♀️</h1>
+        <p>Da monstruosidade mortal à doçura infantil. Clique nos ícones da linha do tempo para entender cada estereótipo.</p>
+    </header>
+
+    <main>
+        <div class="timeline">
+            <!-- Antiguidade -->
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Antiguidade Clássica</h3>
+                    <p>Monstros Mortais e Sedução</p>
+                </div>
+                <div class="timeline-image" onclick="mostrarExplicacao('antiguidade')" title="Clique para saber mais">
+                    🦅🌊
+                </div>
+            </div>
+
+            <!-- Idade Média -->
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Idade Média</h3>
+                    <p>O Símbolo da Vaidade e Pecado</p>
+                </div>
+                <div class="timeline-image" onclick="mostrarExplicacao('idadeMedia')" title="Clique para saber mais">
+                    🪞🧜‍♀️
+                </div>
+            </div>
+
+            <!-- Século XIX -->
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Século XIX (Romantismo)</h3>
+                    <p>A Amante Trágica e Sacrificial</p>
+                </div>
+                <div class="timeline-image" onclick="mostrarExplicacao('seculo19')" title="Clique para saber mais">
+                    💔🐚
+                </div>
+            </div>
+
+            <!-- Atualidade -->
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Século XX e XXI</h3>
+                    <p>A Princesa Rebelde e Infantilizada</p>
+                </div>
+                <div class="timeline-image" onclick="mostrarExplicacao('atualidade')" title="Clique para saber mais">
+                    🐠👑
+                </div>
+            </div>
+        </div>
+
+        <!-- Seção Dinâmica de Explicação -->
+        <section id="painel-explicacao" class="oculto">
+            <h2 id="titulo-explicacao">Selecione uma era na linha do tempo</h2>
+            <p id="texto-explicacao">A explicação do estereótipo aparecerá aqui.</p>
+            <button onclick="fecharExplicacao()" id="btn-fechar">Fechar</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
