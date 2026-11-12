@@ -15,11 +15,11 @@ header {
     text-align: center;
     padding: 3rem 1rem;
     background: linear-gradient(180deg, #001a33 0%, #004080 100%);
-    border-bottom: 2px solid #00cccc;
+    border-bottom: 2px solid #0a60e0;
 }
 
 header p {
-    color: #99e6e6;
+    color: #0f2c2c;
     margin-top: 10px;
     font-size: 1.1rem;
 }
@@ -36,7 +36,7 @@ header p {
     content: '';
     position: absolute;
     width: 4px;
-    background-color: #00cccc;
+    background-color: #001616;
     top: 0;
     bottom: 0;
     left: 50%;
@@ -67,11 +67,11 @@ header p {
     padding: 15px 25px;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.5);
-    border: 1px solid #00cccc;
+    border: 1px solid #558585;
 }
 
 .timeline-content h3 {
-    color: #00cccc;
+    color: #2e6074;
 }
 
 /* Imagens Clicáveis (Feitas com CSS e Emojis para não quebrar) */
@@ -80,7 +80,7 @@ header p {
     height: 60px;
     position: absolute;
     background-color: #e6f2ff;
-    border: 4px solid #00cccc;
+    border: 4px solid #165858;
     border-radius: 50%;
     z-index: 1;
     display: flex;
@@ -101,7 +101,7 @@ header p {
 
 .timeline-image:hover {
     transform: scale(1.3);
-    box-shadow: 0 0 20px #00cccc;
+    box-shadow: 0 0 20px #053f3f;
 }
 
 /* Painel de Explicação */
@@ -112,7 +112,7 @@ header p {
     background: #003366;
     border-radius: 15px;
     text-align: center;
-    border: 2px solid #00cccc;
+    border: 2px solid #00cccc94;
     transition: opacity 0.5s ease;
 }
 
@@ -122,7 +122,7 @@ header p {
 }
 
 #titulo-explicacao {
-    color: #00cccc;
+    color: #2b41a0;
     margin-bottom: 15px;
 }
 
@@ -134,7 +134,7 @@ header p {
 
 #btn-fechar {
     padding: 10px 20px;
-    background-color: #00cccc;
+    background-color: #08796f;
     color: #001a33;
     border: none;
     border-radius: 5px;
